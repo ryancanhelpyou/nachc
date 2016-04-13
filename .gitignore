@@ -34,11 +34,12 @@ wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
 
-# ignore these plugins
-wp-content/mu-plugins/*
-!wp-content/plugins/hello.php
+# ignore all plugins, except:
+wp-content/plugins/*
+!wp-content/plugins/gravityflow/
+!wp-content/plugins/nachc-admin/
 
-# ignore specific themes
+# ignore specific themes, all twenty-something themes
 wp-content/themes/twenty*/
 
 # ignore node/grunt dependency directories
