@@ -1,0 +1,1838 @@
+# Copyright 2015-2016 Steven Henty.
+# Translators:
+# Florian Göldi, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Flow\n"
+"Report-Msgid-Bugs-To: https://www.gravityflow.io\n"
+"POT-Creation-Date: 2016-03-02 19:33:20+00:00\n"
+"PO-Revision-Date: 2016-02-28 10:30+0000\n"
+"Last-Translator: FX Bénard <fxb@wp-translations.org>\n"
+"Language-Team: German (Germany) (http://www.transifex.com/gravityflow/gravityflow/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gravity Flow Build Server\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: class-gravity-flow.php:257 includes/fields/class-field-user.php:55
+#: includes/steps/class-step-approval.php:827
+#: includes/steps/class-step-user-input.php:727
+#: includes/steps/class-step-user-input.php:891
+msgid "User"
+msgstr "Benutzer"
+
+#: class-gravity-flow.php:262 includes/fields/class-field-role.php:55
+#: includes/steps/class-step-approval.php:821
+#: includes/steps/class-step-user-input.php:745
+msgid "Role"
+msgstr "Rolle"
+
+#: class-gravity-flow.php:427
+msgid "No results matched"
+msgstr "Keine passende Resultate"
+
+#: class-gravity-flow.php:448
+msgid "Workflow Steps"
+msgstr "Workflow Schritte"
+
+#: class-gravity-flow.php:448
+msgid "Add New"
+msgstr "Neues Hinzufügen"
+
+#: class-gravity-flow.php:571
+msgid "Workflow Step Settings"
+msgstr "Workflow Schritteinstellungen"
+
+#: class-gravity-flow.php:601
+#: includes/fields/class-field-assignee-select.php:103
+msgid "Users"
+msgstr "Benutzer"
+
+#: class-gravity-flow.php:605
+#: includes/fields/class-field-assignee-select.php:125
+msgid "Roles"
+msgstr "Rollen"
+
+#: class-gravity-flow.php:631
+#: includes/fields/class-field-assignee-select.php:139
+msgid "User (Created by)"
+msgstr "Benutzer (Erstellt von)"
+
+#: class-gravity-flow.php:638
+#: includes/fields/class-field-assignee-select.php:151
+#: includes/pages/class-status.php:312
+msgid "Fields"
+msgstr "Felder"
+
+#: class-gravity-flow.php:719 class-gravity-flow.php:1777
+msgid "Step Type"
+msgstr "Schritt-Typ"
+
+#: class-gravity-flow.php:733 class-gravity-flow.php:737
+#: includes/pages/class-support.php:96
+msgid "Name"
+msgstr "Name"
+
+#: class-gravity-flow.php:737
+msgid "Enter a name to uniquely identify this step."
+msgstr "Gib einen Namen an, um den Schritt eindeutig zu identifizieren."
+
+#: class-gravity-flow.php:741
+msgid "Description"
+msgstr ""
+
+#: class-gravity-flow.php:748
+msgid ""
+"Build the conditional logic that should be applied to this step before it's "
+"allowed to be processed. If an entry does not meet the conditions of this "
+"step it will fall on to the next step in the list."
+msgstr ""
+
+#: class-gravity-flow.php:751
+msgid "Enable Condition for this step"
+msgstr ""
+
+#: class-gravity-flow.php:752
+msgid "Perform this step if"
+msgstr ""
+
+#: class-gravity-flow.php:756 class-gravity-flow.php:1279
+#: class-gravity-flow.php:1286 class-gravity-flow.php:1292
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: class-gravity-flow.php:758
+msgid ""
+"Scheduling a step will queue entries and prevent them from starting this "
+"step until the specified date or until the delay period has elapsed."
+msgstr "Die Planung dieses Schrittes wird Einträge in eine Warteschlange einreihen und wird den Start verhindern bis das angegebene Datum oder die angegebene Verzögerung verstrichen ist."
+
+#: class-gravity-flow.php:759
+msgid ""
+"Note: the schedule setting requires the WordPress Cron which is included and"
+" enabled by default unless your host has deactivated it."
+msgstr ""
+
+#: class-gravity-flow.php:785 class-gravity-flow.php:1414
+#: class-gravity-flow.php:1421 class-gravity-flow.php:1427
+msgid "Expiration"
+msgstr ""
+
+#: class-gravity-flow.php:786
+msgid ""
+"Enable the expiration setting to allow this step to expire. Once expired, "
+"the entry will automatically proceed to the step configured in the Next Step"
+" setting(s) below."
+msgstr ""
+
+#: class-gravity-flow.php:793
+msgid "Next step if"
+msgstr ""
+
+#: class-gravity-flow.php:808
+msgid "Step settings updated. %sBack to the list%s or %sAdd another step%s."
+msgstr "Schritteinstellungen angepasst. %sZurück zu der Liste%s oder %sNeuen Schritt hinzufügen%s"
+
+#: class-gravity-flow.php:818
+msgid "Update Step Settings"
+msgstr "Schritteinstellungen aktualisieren"
+
+#: class-gravity-flow.php:821
+msgid "There was an error while saving the step settings"
+msgstr "Es trat ein Fehler auf beim Speichern der Schritteinstellungen"
+
+#: class-gravity-flow.php:838
+msgid "This step type is missing."
+msgstr ""
+
+#: class-gravity-flow.php:846
+msgid ""
+"There is %s entry currently on this step. This entry may be affected if the "
+"settings are changed."
+msgid_plural ""
+"There are %s entries currently on this step. These entries may be affected "
+"if the settings are changed."
+msgstr[0] "Es ist aktuell %s Eintrag in diesem Schritt. Diese Eintrag wird möglicherweise betroffen, wenn die Einstellungen ändern."
+msgstr[1] "Es sind aktuell %s Einträge in diesem Schritt. Diese Enträge sind möglicherweise betroffen, wenn die Einstellungen ändern."
+
+#: class-gravity-flow.php:1229
+msgid "Schedule this step"
+msgstr "Diesen Schritt planen"
+
+#: class-gravity-flow.php:1242 class-gravity-flow.php:1399
+msgid "Delay"
+msgstr "Verzögerung"
+
+#: class-gravity-flow.php:1246 class-gravity-flow.php:1403
+#: includes/pages/class-activity.php:42 includes/pages/class-activity.php:67
+#: includes/pages/class-status.php:671
+msgid "Date"
+msgstr "Datum"
+
+#: class-gravity-flow.php:1258
+msgid "Date Field"
+msgstr ""
+
+#: class-gravity-flow.php:1270
+msgid "Schedule Date Field"
+msgstr ""
+
+#: class-gravity-flow.php:1296 class-gravity-flow.php:1431
+msgid "Minute(s)"
+msgstr "Minute(n)"
+
+#: class-gravity-flow.php:1300 class-gravity-flow.php:1435
+msgid "Hour(s)"
+msgstr "Stunde(n)"
+
+#: class-gravity-flow.php:1304 class-gravity-flow.php:1439
+msgid "Day(s)"
+msgstr "Tag(e)"
+
+#: class-gravity-flow.php:1308 class-gravity-flow.php:1443
+msgid "Week(s)"
+msgstr "Woche(n)"
+
+#: class-gravity-flow.php:1329
+msgid "Start this step on"
+msgstr "Starte diesen Schritt am"
+
+#: class-gravity-flow.php:1337
+msgid "Start this step"
+msgstr "Starte diesen Schritt"
+
+#: class-gravity-flow.php:1342
+msgid "after the workflow step is triggered."
+msgstr "nachdem der Workflow Schritt ausgelöst wurde."
+
+#: class-gravity-flow.php:1347
+msgid "Start this step on the date specified in the selected field."
+msgstr ""
+
+#: class-gravity-flow.php:1386
+msgid "Schedule expiration"
+msgstr ""
+
+#: class-gravity-flow.php:1463
+msgid "This step expires on"
+msgstr ""
+
+#: class-gravity-flow.php:1471
+msgid "This step will expire"
+msgstr ""
+
+#: class-gravity-flow.php:1476
+msgid "after the workflow step has started."
+msgstr ""
+
+#: class-gravity-flow.php:1482
+msgid "Status after expiration"
+msgstr ""
+
+#: class-gravity-flow.php:1486
+msgid "Expiration Status"
+msgstr ""
+
+#: class-gravity-flow.php:1560 class-gravity-flow.php:1631
+#: includes/steps/class-step-approval.php:426
+#: includes/steps/class-step-user-input.php:127
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: class-gravity-flow.php:1729
+msgid "Workflow Complete"
+msgstr "Workflow Abgeschlossen"
+
+#: class-gravity-flow.php:1730
+msgid "Next step in list"
+msgstr "Nächster Schritt in der Liste"
+
+#: class-gravity-flow.php:1776
+msgid "Step name"
+msgstr "Schrittname"
+
+#: class-gravity-flow.php:1782
+msgid "Entries"
+msgstr "Einträge"
+
+#: class-gravity-flow.php:1791
+msgid "(missing)"
+msgstr ""
+
+#: class-gravity-flow.php:1816
+msgid "You don't have any steps configured. Let's go %screate one%s!"
+msgstr "Du hast keine Schritte konfiguriert. Lass uns %seinen erstellen%s!"
+
+#: class-gravity-flow.php:1872 includes/pages/class-status.php:1130
+#: includes/pages/class-status.php:1135
+msgid "Status:"
+msgstr "Status:"
+
+#: class-gravity-flow.php:2018
+msgid "Entry Id"
+msgstr "Eintrags-ID"
+
+#: class-gravity-flow.php:2019 includes/pages/class-inbox.php:96
+#: includes/pages/class-inbox.php:158
+msgid "Submitted"
+msgstr "Abgesendet"
+
+#: class-gravity-flow.php:2025
+msgid "Last updated"
+msgstr "Letztes Update"
+
+#: class-gravity-flow.php:2033
+msgid "Submitted by"
+msgstr "Abgesendet von"
+
+#: class-gravity-flow.php:2042 class-gravity-flow.php:4480
+#: includes/pages/class-status.php:684
+#: includes/steps/class-step-user-input.php:891
+msgid "Status"
+msgstr "Status"
+
+#: class-gravity-flow.php:2051
+msgid "Expires"
+msgstr ""
+
+#: class-gravity-flow.php:2059 includes/steps/class-step-approval.php:798
+#: includes/steps/class-step-user-input.php:697
+msgid "Queued"
+msgstr "Eingereiht"
+
+#: class-gravity-flow.php:2076
+msgid "Scheduled"
+msgstr ""
+
+#: class-gravity-flow.php:2080
+msgid "Expired: refresh the page"
+msgstr ""
+
+#: class-gravity-flow.php:2107
+msgid "Admin"
+msgstr "Administrator"
+
+#: class-gravity-flow.php:2115
+msgid "Select an action"
+msgstr "Wähle eine Aktion"
+
+#: class-gravity-flow.php:2117 includes/steps/class-step.php:822
+msgid "Cancel Workflow"
+msgstr "Workflow abbrechen"
+
+#: class-gravity-flow.php:2119
+msgid "Restart this step"
+msgstr "Diesen Schritt neustarten"
+
+#: class-gravity-flow.php:2121 includes/pages/class-status.php:210
+msgid "Restart Workflow"
+msgstr "Workflow neustarten"
+
+#: class-gravity-flow.php:2126
+msgid "Send to step:"
+msgstr "An Schritt gesendet:"
+
+#: class-gravity-flow.php:2138 includes/pages/class-status.php:377
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: class-gravity-flow.php:2163
+msgid "Workflow complete"
+msgstr "Workflow abgeschlossen"
+
+#: class-gravity-flow.php:2173
+msgid "View"
+msgstr "Ansicht"
+
+#: class-gravity-flow.php:2364
+msgid "General"
+msgstr "Allgemein"
+
+#: class-gravity-flow.php:2365 class-gravity-flow.php:3975
+msgid "Gravity Flow Settings"
+msgstr "Gravity Flow Einstellungen"
+
+#: class-gravity-flow.php:2370 class-gravity-flow.php:2414
+msgid "Labels"
+msgstr ""
+
+#: class-gravity-flow.php:2385
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: class-gravity-flow.php:2419
+msgid "Navigation"
+msgstr ""
+
+#: class-gravity-flow.php:2445
+msgid "Status Labels"
+msgstr ""
+
+#: class-gravity-flow.php:2459 class-gravity-flow.php:4505
+#: includes/steps/class-step.php:182
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: class-gravity-flow.php:2459 class-gravity-flow.php:4517
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: class-gravity-flow.php:2481
+#: includes/steps/class-step-feed-user-registration.php:79
+#: includes/steps/class-step-user-input.php:850
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: class-gravity-flow.php:2496
+msgid "Invalid token"
+msgstr "Ungültiges Token"
+
+#: class-gravity-flow.php:2500
+msgid "Token already expired"
+msgstr "Token ist bereits erloschen"
+
+#: class-gravity-flow.php:2508
+msgid "Token revoked"
+msgstr "Token zurückgezogen"
+
+#: class-gravity-flow.php:2512
+msgid "Tools"
+msgstr "Hilfsmittel"
+
+#: class-gravity-flow.php:2528
+msgid "Revoke a token"
+msgstr "Ein Token entziehen"
+
+#: class-gravity-flow.php:2534
+msgid "Revoke"
+msgstr "Entziehen"
+
+#: class-gravity-flow.php:2579
+msgid "Entries per page"
+msgstr ""
+
+#: class-gravity-flow.php:2611
+msgid "Published"
+msgstr "Veröffentlichen"
+
+#: class-gravity-flow.php:2622
+msgid "No workflow steps have been added to any forms yet."
+msgstr "Keine Workflow Schritte wurden bisher zu einem Formular hinzugefügt."
+
+#: class-gravity-flow.php:2631
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-gravity-flow.php:2635 includes/class-extension.php:124
+#: includes/class-feed-extension.php:124
+#: includes/wizard/steps/class-iw-step-license-key.php:49
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: class-gravity-flow.php:2639 includes/class-extension.php:128
+#: includes/class-feed-extension.php:128
+msgid "Invalid license"
+msgstr "Ungültige Lizenz"
+
+#: class-gravity-flow.php:2645
+#: includes/wizard/steps/class-iw-step-updates.php:74
+msgid "Background Updates"
+msgstr "Hintergrundupdates"
+
+#: class-gravity-flow.php:2646
+msgid ""
+"Set this to ON to allow Gravity Flow to download and install bug fixes and "
+"security updates automatically in the background. Requires a valid license "
+"key."
+msgstr "Setze diese Einstellung auf An um Gravity Flow die Erlaubnis zu erteilen automatisch Fehlebehebungen und Sicherheitsupdates im Hintergrund herunterzuladen und zu installieren. Dies setzt einen gültigen Lizenzschlüssel voraus."
+
+#: class-gravity-flow.php:2651
+msgid "On"
+msgstr "Ein"
+
+#: class-gravity-flow.php:2652
+msgid "Off"
+msgstr "Aus"
+
+#: class-gravity-flow.php:2660
+msgid "Published Workflow Forms"
+msgstr "Veröffentlichte Workflow Formulare"
+
+#: class-gravity-flow.php:2661
+msgid "Select the forms you wish to publish on the Submit page."
+msgstr "Wähle die Formulare aus, welche du auf der Übermittlungs-Seite wünschst."
+
+#: class-gravity-flow.php:2671
+msgid "Update Settings"
+msgstr "Einstellungen aktualisieren"
+
+#: class-gravity-flow.php:2673
+msgid "Settings updated successfully"
+msgstr "Einstellungen erfolgreich aktualisiert"
+
+#: class-gravity-flow.php:2674
+msgid "There was an error while saving the settings"
+msgstr "Es trat ein Fehler auf während dem Speichern der Einstellungen"
+
+#: class-gravity-flow.php:2777
+msgid "Submit a Workflow Form"
+msgstr "Sende ein Workflow Formular ab"
+
+#: class-gravity-flow.php:2848
+msgid "Oops! We could not locate your entry."
+msgstr "Ups! Wir konnten deinen Eintrag nicht finden."
+
+#: class-gravity-flow.php:2866 includes/steps/class-step-approval.php:1211
+msgid "Error: incorrect entry."
+msgstr "Fehler: Inkorrekter Eintrag"
+
+#: class-gravity-flow.php:2872
+msgid "Workflow Cancelled"
+msgstr ""
+
+#: class-gravity-flow.php:2879
+msgid "Error: This URL is no longer valid."
+msgstr "Fehler: Die URL ist nicht länger gültig."
+
+#: class-gravity-flow.php:2944
+msgid "Workflow Inbox"
+msgstr "Workflow Eingang"
+
+#: class-gravity-flow.php:2981
+msgid "Workflow Status"
+msgstr "Workflow Status"
+
+#: class-gravity-flow.php:3019
+msgid "Workflow Activity"
+msgstr "Workflow Aktivität"
+
+#: class-gravity-flow.php:3058
+msgid "Workflow Reports"
+msgstr "Workflow Berichte"
+
+#: class-gravity-flow.php:3103
+msgid "Your inbox of pending tasks"
+msgstr "Dein Eingang von ausstehenden Arbeiten"
+
+#: class-gravity-flow.php:3117
+msgid "Submit a Workflow"
+msgstr "Ein Workflow absenden"
+
+#: class-gravity-flow.php:3129
+msgid "Your workflows"
+msgstr "Deine Workflows"
+
+#: class-gravity-flow.php:3140 class-gravity-flow.php:4483
+msgid "Reports"
+msgstr "Berichte"
+
+#: class-gravity-flow.php:3151 class-gravity-flow.php:4484
+msgid "Activity"
+msgstr "Aktivität"
+
+#: class-gravity-flow.php:3174 includes/class-api.php:120
+msgid "Workflow cancelled."
+msgstr "Workflow abgebrochen."
+
+#: class-gravity-flow.php:3178 class-gravity-flow.php:3190
+msgid "The entry does not currently have an active step."
+msgstr ""
+
+#: class-gravity-flow.php:3187 includes/class-api.php:140
+msgid "Workflow Step restarted."
+msgstr "Workflow Schritt neugestartet."
+
+#: class-gravity-flow.php:3198 includes/class-api.php:166
+#: includes/pages/class-status.php:1205
+msgid "Workflow restarted."
+msgstr "Workflow neugestartet."
+
+#: class-gravity-flow.php:3207 includes/class-api.php:209
+msgid "Sent to step: %s"
+msgstr "Gesendet an Schritt: %s"
+
+#: class-gravity-flow.php:3680
+msgid ""
+"Gravity Flow Steps imported. IMPORTANT: Check the assignees for each step. "
+"If the form was imported from a different installation with different user "
+"IDs then steps may need to be reassigned."
+msgstr ""
+
+#: class-gravity-flow.php:3738
+msgid "Assignees"
+msgstr "Beauftragte"
+
+#: class-gravity-flow.php:3743
+msgid "Show Users"
+msgstr "Zeige Benutzer"
+
+#: class-gravity-flow.php:3751
+msgid "Show Roles"
+msgstr "Zeige Rollen"
+
+#: class-gravity-flow.php:3759
+msgid "Show Fields"
+msgstr "Zeige Felder"
+
+#: class-gravity-flow.php:3934 class-gravity-flow.php:3936
+msgid "Step expired"
+msgstr ""
+
+#: class-gravity-flow.php:3979
+msgid ""
+"%sThis operation deletes ALL Gravity Flow settings%s. If you continue, you "
+"will NOT be able to retrieve these settings."
+msgstr "%sDiese Funktion löscht ALLE Gravity Forms Einstellungen%s. Wenn du fortfährst wirst du NICHT in der Lage sein diese Einstellungen wiederherzustellen."
+
+#: class-gravity-flow.php:3983
+msgid ""
+"Warning! ALL Gravity Flow settings will be deleted. This cannot be undone. "
+"'OK' to delete, 'Cancel' to stop"
+msgstr "Warnung! ALLE Gravity Flow Einstellungen werden gelöscht. Dies kann nicht mehr rückgängig gemacht werden. 'OK' zum löschen, 'Abbrechen' zum stoppen"
+
+#: class-gravity-flow.php:4330
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d Jahr"
+msgstr[1] "%d Jahre"
+
+#: class-gravity-flow.php:4334
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d Monat"
+msgstr[1] "%d Monate"
+
+#: class-gravity-flow.php:4338
+msgid "%dd"
+msgstr "%dt"
+
+#: class-gravity-flow.php:4342
+msgid "%dh"
+msgstr "%dh"
+
+#: class-gravity-flow.php:4346
+msgid "%dm"
+msgstr "%dm"
+
+#: class-gravity-flow.php:4350
+msgid "%ds"
+msgstr "%ds"
+
+#: class-gravity-flow.php:4394
+msgid "Every Fifteen Minutes"
+msgstr "Jede 15 Minuten"
+
+#: class-gravity-flow.php:4407 class-gravity-flow.php:4427
+msgid "Not authorized"
+msgstr ""
+
+#: class-gravity-flow.php:4477
+msgid "Workflow"
+msgstr "Workflow"
+
+#: class-gravity-flow.php:4478
+msgid "Inbox"
+msgstr "Eingang"
+
+#: class-gravity-flow.php:4479
+msgid "Submit"
+msgstr "Absenden"
+
+#: class-gravity-flow.php:4481 includes/pages/class-help.php:23
+msgid "Help"
+msgstr "Hilfe"
+
+#: class-gravity-flow.php:4482 includes/pages/class-support.php:77
+msgid "Support"
+msgstr "Support"
+
+#: class-gravity-flow.php:4508 includes/steps/class-step-user-input.php:192
+#: includes/steps/class-step-user-input.php:695
+#: includes/steps/class-step-user-input.php:842
+#: includes/steps/class-step.php:156
+msgid "Complete"
+msgstr "Abgeschlossen"
+
+#: class-gravity-flow.php:4511 includes/steps/class-step-approval.php:31
+#: includes/steps/class-step-approval.php:794
+msgid "Approved"
+msgstr "Genehmigt"
+
+#: class-gravity-flow.php:4514 includes/steps/class-step-approval.php:25
+#: includes/steps/class-step-approval.php:796
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: class-gravity-flow.php:4572
+msgid "Oops! We couldn't find your lead. Please try again"
+msgstr ""
+
+#: class-gravity-flow.php:4615 includes/pages/class-entry-detail.php:58
+msgid "Would you like to delete this file? 'Cancel' to stop. 'OK' to delete"
+msgstr "Willst du diese Datei löschen? 'Abbrechen' zum stoppen. 'OK' zum löschen"
+
+#: class-gravity-flow.php:4639
+#: includes/fields/class-field-assignee-select.php:31
+#: includes/fields/class-field-role.php:23
+#: includes/fields/class-field-user.php:23
+msgid "Workflow Fields"
+msgstr ""
+
+#: class-gravity-flow.php:4639
+msgid "Workflow Fields add advanced workflow functionality to your forms."
+msgstr ""
+
+#: class-gravity-flow.php:4689
+msgid "All fields"
+msgstr ""
+
+#: class-gravity-flow.php:4693
+msgid "Selected fields"
+msgstr ""
+
+#: class-gravity-flow.php:4720
+msgid "Except"
+msgstr ""
+
+#: class-gravity-flow.php:4739
+msgid "Order Summary"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:186
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "Es ist eine neue Version von %1$s verfügbar. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Zeige Version %3$s Details</a>."
+
+#: includes/EDD_SL_Plugin_Updater.php:193
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr "Es ist eine neue Version von %1$s verfügbar. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Zeige Version %3$s Details</a>  or <a href=\"%4$s\">Jetzt Aktualisieren</a>."
+
+#: includes/EDD_SL_Plugin_Updater.php:346
+msgid "You do not have permission to install plugin updates"
+msgstr "Dir fehlt die benötigte Berechtigung um Pluginupdates zu installieren"
+
+#: includes/EDD_SL_Plugin_Updater.php:346
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/class-web-api.php:186
+msgid "Forbidden"
+msgstr ""
+
+#: includes/fields/class-field-assignee-select.php:64
+#: includes/pages/class-reports.php:299 includes/pages/class-reports.php:357
+#: includes/pages/class-reports.php:498
+msgid "Assignee"
+msgstr "Beauftragter"
+
+#: includes/pages/class-activity.php:29 includes/pages/class-reports.php:53
+msgid "You don't have permission to view this page"
+msgstr "Dir fehlt die benötigte Berechtigung um diese Seite einzusehen"
+
+#: includes/pages/class-activity.php:41
+msgid "Event ID"
+msgstr "Ereignis ID"
+
+#: includes/pages/class-activity.php:43 includes/pages/class-activity.php:72
+#: includes/pages/class-inbox.php:92 includes/pages/class-inbox.php:135
+#: includes/pages/class-reports.php:133 includes/pages/class-status.php:673
+msgid "Form"
+msgstr "Formular"
+
+#: includes/pages/class-activity.php:44 includes/pages/class-activity.php:77
+msgid "Entry ID"
+msgstr "Eintrags-ID"
+
+#: includes/pages/class-activity.php:45 includes/pages/class-activity.php:82
+msgid "Type"
+msgstr "Typ"
+
+#: includes/pages/class-activity.php:46 includes/pages/class-activity.php:87
+#: includes/pages/class-activity.php:117
+msgid "Event"
+msgstr "Ereignis"
+
+#: includes/pages/class-activity.php:47 includes/pages/class-activity.php:105
+#: includes/pages/class-inbox.php:95 includes/pages/class-inbox.php:147
+#: includes/pages/class-reports.php:237 includes/pages/class-reports.php:499
+#: includes/pages/class-status.php:680
+msgid "Step"
+msgstr "Schritt"
+
+#: includes/pages/class-activity.php:48
+msgid "Duration"
+msgstr "Dauer"
+
+#: includes/pages/class-activity.php:62 includes/pages/class-inbox.php:90
+#: includes/pages/class-inbox.php:129 includes/pages/class-status.php:669
+msgid "ID"
+msgstr "ID"
+
+#: includes/pages/class-activity.php:141
+msgid "Waiting for workflow activity"
+msgstr "Wartet auf Workflow Aktivität"
+
+#: includes/pages/class-entry-detail.php:69
+msgid "Ajax error while deleting file."
+msgstr "Ajax-Fehler während dem löschen der Datei."
+
+#: includes/pages/class-entry-detail.php:122
+msgid "Workflow Entry #"
+msgstr "Workflow Eintrag #"
+
+#: includes/pages/class-entry-detail.php:122
+#: includes/pages/class-status.php:362
+msgid "Workflow Form"
+msgstr "Workflow Formular"
+
+#: includes/pages/class-entry-detail.php:188
+#: includes/pages/class-print-entries.php:147
+msgid "You don't have permission to view this entry."
+msgstr "Dir fehlt die benötigte Berechtigung um diesen Eintrag einzusehen."
+
+#: includes/pages/class-entry-detail.php:265
+#: includes/pages/class-status.php:207
+msgid "Print"
+msgstr "Drucken"
+
+#: includes/pages/class-entry-detail.php:271
+msgid "include timeline"
+msgstr "Zeitachse einschliessen"
+
+#: includes/pages/class-entry-detail.php:284
+msgid "Timeline"
+msgstr "Zeitachse"
+
+#: includes/pages/class-entry-detail.php:335
+msgid "Workflow Submitted"
+msgstr "Workflow abgesendet"
+
+#: includes/pages/class-entry-detail.php:384
+#: includes/pages/class-print-entries.php:88
+msgid "Entry # "
+msgstr "Eintrag #"
+
+#: includes/pages/class-entry-detail.php:393
+msgid "show empty fields"
+msgstr "Zeige leere Felder"
+
+#: includes/pages/class-entry-detail.php:437
+#: includes/pages/class-entry-detail.php:615
+msgid "Order"
+msgstr "Auftrag"
+
+#: includes/pages/class-entry-detail.php:645
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/pages/class-entry-detail.php:646
+msgid "Qty"
+msgstr "Anz"
+
+#: includes/pages/class-entry-detail.php:647
+msgid "Unit Price"
+msgstr "Einheitspreis"
+
+#: includes/pages/class-entry-detail.php:648
+msgid "Price"
+msgstr "Preis"
+
+#: includes/pages/class-entry-detail.php:711
+msgid "Total"
+msgstr "Total"
+
+#: includes/pages/class-inbox.php:94 includes/pages/class-inbox.php:141
+#: includes/pages/class-status.php:676
+msgid "Submitter"
+msgstr "Absender"
+
+#: includes/pages/class-inbox.php:110 includes/pages/class-status.php:716
+msgid "Last Updated"
+msgstr ""
+
+#: includes/pages/class-inbox.php:189
+msgid "Last_Updated"
+msgstr ""
+
+#: includes/pages/class-inbox.php:223
+msgid "No pending tasks"
+msgstr "Keine ausstehenden Arbeiten"
+
+#: includes/pages/class-print-entries.php:67
+msgid "Form Id and Lead Id are required parameters."
+msgstr "Formular-ID und Lead-ID sind benötigte Parameter."
+
+#: includes/pages/class-print-entries.php:88
+msgid "Bulk Print"
+msgstr "Mengendruck"
+
+#: includes/pages/class-reports.php:76 includes/pages/class-reports.php:516
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/pages/class-reports.php:127 includes/pages/class-reports.php:179
+#: includes/pages/class-reports.php:231 includes/pages/class-reports.php:293
+#: includes/pages/class-reports.php:351 includes/pages/class-reports.php:410
+msgid "No data to display"
+msgstr "Keine Daten zum Anzeigen"
+
+#: includes/pages/class-reports.php:133 includes/pages/class-reports.php:154
+#: includes/pages/class-reports.php:185 includes/pages/class-reports.php:206
+#: includes/pages/class-reports.php:416 includes/pages/class-reports.php:442
+msgid "Workflows Completed"
+msgstr "Workflow Abgeschlossen"
+
+#: includes/pages/class-reports.php:133 includes/pages/class-reports.php:155
+#: includes/pages/class-reports.php:185 includes/pages/class-reports.php:207
+#: includes/pages/class-reports.php:237 includes/pages/class-reports.php:264
+#: includes/pages/class-reports.php:299 includes/pages/class-reports.php:326
+#: includes/pages/class-reports.php:357 includes/pages/class-reports.php:386
+#: includes/pages/class-reports.php:416 includes/pages/class-reports.php:443
+msgid "Average Duration (hours)"
+msgstr "Durchschnittliche Dauer (Stunden)"
+
+#: includes/pages/class-reports.php:143
+msgid "Forms"
+msgstr "Formulare"
+
+#: includes/pages/class-reports.php:144 includes/pages/class-reports.php:196
+msgid "Workflows completed and average duration"
+msgstr "Workflows abgeschlossen und durchschnittliche Dauer"
+
+#: includes/pages/class-reports.php:185 includes/pages/class-reports.php:416
+#: includes/pages/class-reports.php:497
+msgid "Month"
+msgstr "Monat"
+
+#: includes/pages/class-reports.php:237 includes/pages/class-reports.php:263
+#: includes/pages/class-reports.php:299 includes/pages/class-reports.php:325
+#: includes/pages/class-reports.php:357 includes/pages/class-reports.php:385
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/pages/class-reports.php:253
+msgid "Step completed and average duration"
+msgstr "Schritt abgeschlossen und durchschnittliche Dauer"
+
+#: includes/pages/class-reports.php:315 includes/pages/class-reports.php:375
+msgid "Step completed and average duration by assignee"
+msgstr "Schritt abgeschlossen und durchschnittliche Dauer nach Beauftragter"
+
+#: includes/pages/class-reports.php:432
+msgid "Workflows completed and average duration by month"
+msgstr "Workflows abgeschlossen und durchschnittliche Dauer nach Monat"
+
+#: includes/pages/class-reports.php:462
+msgid "Select A Workflow Form"
+msgstr "Wähle ein Workflow Formular"
+
+#: includes/pages/class-reports.php:480
+msgid "Last 12 months"
+msgstr "Letzte 12 Monate"
+
+#: includes/pages/class-reports.php:481
+msgid "Last 6 months"
+msgstr "Letzte 6 Monate"
+
+#: includes/pages/class-reports.php:482
+msgid "Last 3 months"
+msgstr "Letzte 3 Monate"
+
+#: includes/pages/class-reports.php:525
+msgid "All Steps"
+msgstr "Alle Schritte"
+
+#: includes/pages/class-status.php:85
+msgid "Export"
+msgstr "Exportieren"
+
+#: includes/pages/class-status.php:91
+msgid "The destination file is not writeable"
+msgstr ""
+
+#: includes/pages/class-status.php:214
+msgid "entry"
+msgstr "Eintrag"
+
+#: includes/pages/class-status.php:215
+msgid "entries"
+msgstr "Einträge"
+
+#: includes/pages/class-status.php:260 includes/pages/class-submit.php:21
+msgid "You haven't submitted any workflow forms yet."
+msgstr "Du hast bis jetzt keine Workflow Formulare abgesendet."
+
+#: includes/pages/class-status.php:278
+msgid "All"
+msgstr "Alle"
+
+#: includes/pages/class-status.php:345
+msgid "Start:"
+msgstr "Start:"
+
+#: includes/pages/class-status.php:351
+msgid "End:"
+msgstr "Ende:"
+
+#: includes/pages/class-status.php:384
+msgid "Clear Filter"
+msgstr "Filter löschen"
+
+#: includes/pages/class-status.php:387
+msgid "Search"
+msgstr "Suchen"
+
+#: includes/pages/class-status.php:569
+msgid "(deleted)"
+msgstr ""
+
+#: includes/pages/class-status.php:667
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/pages/class-status.php:933
+#: includes/steps/class-step-approval.php:56
+#: includes/steps/class-step-approval.php:228
+#: includes/steps/class-step-notification.php:75
+#: includes/steps/class-step-user-input.php:38
+msgid "Select"
+msgstr "Auswählen"
+
+#: includes/pages/class-support.php:81
+msgid "Please check the documentation before submitting a support request"
+msgstr "Bitte konsultiere zuerst die Dokumentation bevor du eine Support Anfrage startest"
+
+#: includes/pages/class-support.php:102
+#: includes/steps/class-step-approval.php:817
+#: includes/steps/class-step-user-input.php:734
+#: includes/steps/class-step-user-input.php:887
+msgid "Email"
+msgstr "E-Mail"
+
+#: includes/pages/class-support.php:109
+msgid "General comment or suggestion"
+msgstr "Genereller Kommentar oder Vorschlag"
+
+#: includes/pages/class-support.php:114
+msgid "Feature request"
+msgstr "Zusatzfunktions-Anfrage"
+
+#: includes/pages/class-support.php:120
+msgid "Bug report"
+msgstr "Fehler melden"
+
+#: includes/pages/class-support.php:124
+msgid "Suggestion or steps to reproduce the issue."
+msgstr "Vorschlag oder Schritte um das Problem zu reproduzieren."
+
+#: includes/pages/class-support.php:130
+msgid ""
+"Send debugging information. (This includes some system information and a "
+"list of active plugins. No forms or entry data will be sent.)"
+msgstr ""
+
+#: includes/pages/class-support.php:133
+msgid "Send"
+msgstr "Senden"
+
+#: includes/steps/class-step-approval.php:26
+msgid "Next step if Rejected"
+msgstr "Nächster Schritt wenn Abgelehnt"
+
+#: includes/steps/class-step-approval.php:32
+msgid "Next Step if Approved"
+msgstr "Nächster Schritt wenn Genehmigt"
+
+#: includes/steps/class-step-approval.php:43
+#: includes/steps/class-step-approval.php:322
+msgid "Approval"
+msgstr "Genehmigung"
+
+#: includes/steps/class-step-approval.php:57
+#: includes/steps/class-step-user-input.php:39
+msgid "Conditional Routing"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:68
+msgid "Send Email to the assignee(s)."
+msgstr "Sende E-Mails an Beauftragte(r)"
+
+#: includes/steps/class-step-approval.php:69
+msgid ""
+"Enable this setting to send email to each of the assignees as soon as the "
+"entry has been assigned. If a role is configured to receive emails then all "
+"the users with that role will receive the email."
+msgstr "Aktiviere diese Einstellung um eine E-Mail an alle Beauftragte zu senden, sobald der Eintrag zugewiesen wurde. Wenn eine Rolle als Empfänger konfiguriert wird, werden alle Benutzer dieser Rolle dieses E-Mail erhalten."
+
+#: includes/steps/class-step-approval.php:78
+#: includes/steps/class-step-approval.php:166
+#: includes/steps/class-step-approval.php:242
+#: includes/steps/class-step-notification.php:96
+#: includes/steps/class-step-user-input.php:229
+msgid "From Name"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:84
+#: includes/steps/class-step-approval.php:171
+#: includes/steps/class-step-approval.php:248
+#: includes/steps/class-step-notification.php:102
+#: includes/steps/class-step-user-input.php:235
+msgid "From Email"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:91
+#: includes/steps/class-step-approval.php:179
+#: includes/steps/class-step-approval.php:256
+#: includes/steps/class-step-notification.php:109
+#: includes/steps/class-step-user-input.php:243
+msgid "Reply To"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:97
+#: includes/steps/class-step-approval.php:185
+#: includes/steps/class-step-approval.php:262
+#: includes/steps/class-step-notification.php:115
+#: includes/steps/class-step-user-input.php:249
+msgid "BCC"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:103
+#: includes/steps/class-step-approval.php:191
+#: includes/steps/class-step-approval.php:268
+#: includes/steps/class-step-notification.php:121
+#: includes/steps/class-step-user-input.php:255
+msgid "Subject"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:108
+msgid "Message to Assignee(s)"
+msgstr "Nachricht an Beauftragte(r)"
+
+#: includes/steps/class-step-approval.php:110
+msgid ""
+"A new entry is pending your approval. Please check your Workflow Inbox."
+msgstr "Ein neuer Eintrag wartet auf Genehmigung. Bitte sieh in deinem Workflow Eingang nach."
+
+#: includes/steps/class-step-approval.php:117
+#: includes/steps/class-step-user-input.php:266
+msgid "Send reminder"
+msgstr "Sende eine Erinnerung"
+
+#: includes/steps/class-step-approval.php:121
+#: includes/steps/class-step-user-input.php:270
+msgid "Resend the assignee email after"
+msgstr "Sende nachher das E-Mail an die Beauftragen nochmals"
+
+#: includes/steps/class-step-approval.php:122
+#: includes/steps/class-step-user-input.php:271
+msgid "day(s)"
+msgstr "Tag(e)"
+
+#: includes/steps/class-step-approval.php:134
+msgid "Send email when the entry is rejected"
+msgstr "Sende ein E-Mail, wenn der Eintrag abgelehnt wurde"
+
+#: includes/steps/class-step-approval.php:135
+msgid "Enable this setting to send an email when the entry is rejected."
+msgstr "Aktiviere diese Einstellung, dass eine E-Mail gesendet wird, wenn der Eintrag abgelehnt wird."
+
+#: includes/steps/class-step-approval.php:143
+#: includes/steps/class-step-approval.php:219
+#: includes/steps/class-step-notification.php:70
+msgid "Send To"
+msgstr "Senden an"
+
+#: includes/steps/class-step-approval.php:152
+#: includes/steps/class-step-notification.php:82
+msgid "Select User"
+msgstr "Benutzer auswählen"
+
+#: includes/steps/class-step-approval.php:160
+#: includes/steps/class-step-approval.php:236
+#: includes/steps/class-step-approval.php:345
+#: includes/steps/class-step-notification.php:90
+msgid "Routing"
+msgstr "Routing"
+
+#: includes/steps/class-step-approval.php:196
+#: includes/steps/class-step-notification.php:126
+msgid "Message"
+msgstr "Nachricht"
+
+#: includes/steps/class-step-approval.php:198
+msgid "Entry {entry_id} has been rejected"
+msgstr "Eintrag {entry_id} wurde abgelehnt"
+
+#: includes/steps/class-step-approval.php:210
+msgid "Send email when the entry is approved"
+msgstr "Sende ein E-Mail, wenn der Eintrag genehmigt wurde"
+
+#: includes/steps/class-step-approval.php:211
+msgid "Enable this setting to send an email when the entry is approved."
+msgstr "Aktiviere diese Einstellung, dass eine E-Mail gesendet wird, wenn der Eintrag genehmigt wird."
+
+#: includes/steps/class-step-approval.php:274
+msgid "Approval Message"
+msgstr "Genehmigungs Nachricht"
+
+#: includes/steps/class-step-approval.php:276
+msgid "Entry {entry_id} has been approved"
+msgstr "Eintrag {entry_id} wurde genehmigt"
+
+#: includes/steps/class-step-approval.php:301
+msgid "Attach PDF"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:326
+#: includes/steps/class-step-user-input.php:49
+msgid "Assign To:"
+msgstr "Beauftragt an:"
+
+#: includes/steps/class-step-approval.php:335
+msgid ""
+"Users and roles fields will appear in this list. If the form contains any "
+"assignee fields they will also appear here. Click on an item to select it. "
+"The selected items will appear on the right. If you select a role then "
+"anybody from that role can approve."
+msgstr "Benutzer und Rollen Felder werden in dieser Liste erscheinen. Wenn das Formuiar Beauftragte-Felder beinhaltet werden diese auch hier erscheinen. Klicke auf ein Objekt um es auszuwählen. Die ausgewählten Objekte werden auf der rechten Seite erscheinen. Wenn du eine Rolle auswählst kann irgendjemand mit dieser Rolle genehmigen."
+
+#: includes/steps/class-step-approval.php:338
+msgid "Select Assignees"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:344
+msgid ""
+"Build assignee routing rules by adding conditions. Users and roles fields "
+"will appear in the first drop-down field. If the form contains any assignee "
+"fields they will also appear here. Select the assignee and define the "
+"condition for that assignee. Add as many routing rules as you need."
+msgstr "Erstelle Beauftragen-Routen mit dem Hinzufügen von Bedingungen. Benutzer und Rollen Felder werden im ersten Drop-Down erscheinen. Wenn das Formular über Beauftragen Felder verfügt, werden diese auch hier erscheinen. Wähle den Beauftragten und definiere die Bedingung für diesen. Füge soviele Routen hinzu, wie du benötigst."
+
+#: includes/steps/class-step-approval.php:350
+msgid "Approval Policy"
+msgstr "Genehmigungsregeln"
+
+#: includes/steps/class-step-approval.php:351
+msgid ""
+"Define how approvals should be processed. If all assignees must approve then"
+" the entry will require unanimous approval before the step can be completed."
+" If the step is assigned to a role only one user in that role needs to "
+"approve."
+msgstr "Definier wie Genehmigungen bearbeitet werden sollen. Wenn alle Beauftragte den Eintragn genehmigen müssen, benötigt dass eine einstimmige Genehmigung bevor der Schritt abgeschlossen werden kann. Wenn der Schritt einer Rolle zugewiesen wird, muss nur ein Benutzer dieser Rolle den Eintrag genehmigen."
+
+#: includes/steps/class-step-approval.php:356
+msgid "At least one assignee must approve"
+msgstr "Mindestens ein Beauftragter muss genehmigen"
+
+#: includes/steps/class-step-approval.php:360
+msgid "All assignees must approve"
+msgstr "Alle Beauftragte müssen genehmigen"
+
+#: includes/steps/class-step-approval.php:367
+#: includes/steps/class-step-user-input.php:166
+msgid "Instructions"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:369
+#: includes/steps/class-step-user-input.php:168
+msgid ""
+"Activate this setting to display instructions to the user for the current "
+"step."
+msgstr ""
+
+#: includes/steps/class-step-approval.php:371
+#: includes/steps/class-step-user-input.php:170
+msgid "Display instructions"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:375
+msgid ""
+"Instructions: please review the values in the fields below and click on the "
+"Approve or Reject button"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:380
+#: includes/steps/class-step-user-input.php:178
+msgid "Display Fields"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:381
+#: includes/steps/class-step-user-input.php:179
+msgid "Select the fields to hide or display."
+msgstr ""
+
+#: includes/steps/class-step-approval.php:386
+msgid "Emails"
+msgstr "E-Mails"
+
+#: includes/steps/class-step-approval.php:387
+msgid "Configure the emails that should be sent for this step."
+msgstr "Konfiguriere die E-Mails, welche für diesen Schritt gesendet werden sollen."
+
+#: includes/steps/class-step-approval.php:391
+msgid "Assignee Email"
+msgstr "Beauftragter E-Mail"
+
+#: includes/steps/class-step-approval.php:396
+msgid "Rejection Email"
+msgstr "Ablehnungs E-Mail"
+
+#: includes/steps/class-step-approval.php:401
+msgid "Approval Email"
+msgstr "Genemigungs E-Mail"
+
+#: includes/steps/class-step-approval.php:422
+msgid "Revert to User Input step"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:424
+msgid ""
+"The Revert setting enables a third option in addition to Approve and Reject "
+"which allows the assignee to send the entry directly to a User Input step "
+"without changing the status. Enable this setting to show the Revert button "
+"next to the Approve and Reject buttons and specify the User Input step the "
+"entry will be sent to."
+msgstr ""
+
+#: includes/steps/class-step-approval.php:436
+#: includes/steps/class-step-user-input.php:197
+msgid "Workflow Note"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:438
+#: includes/steps/class-step-user-input.php:199
+msgid ""
+"The text entered in the Note box will be added to the timeline. Use this "
+"setting to select the options for the Note box."
+msgstr ""
+
+#: includes/steps/class-step-approval.php:441
+#: includes/steps/class-step-user-input.php:190
+#: includes/steps/class-step-user-input.php:202
+msgid "Hidden"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:442
+#: includes/steps/class-step-user-input.php:203
+msgid "Not required"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:443
+msgid "Always required"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:444
+msgid "Required if approved"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:445
+msgid "Required if rejected"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:450
+msgid "Required if reverted"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:451
+msgid "Required if reverted or rejected"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:677
+msgid ""
+"The status could not be changed because this step has already been "
+"processed."
+msgstr "Der Status konnte nicht geändert werden, da der Schritt bereits bearbeitet wurde."
+
+#: includes/steps/class-step-approval.php:685
+msgid "Reverted to step"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:688
+#: includes/steps/class-step-approval.php:718
+#: includes/steps/class-step-approval.php:866
+#: includes/steps/class-step-user-input.php:538
+#: includes/steps/class-step-user-input.php:813
+msgid "Note"
+msgstr "Bemerkung"
+
+#: includes/steps/class-step-approval.php:692
+msgid "Reverted to step:"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:710
+msgid "Approved."
+msgstr "Genehmigt."
+
+#: includes/steps/class-step-approval.php:712
+msgid "Rejected."
+msgstr "Abgelehnt."
+
+#: includes/steps/class-step-approval.php:730
+msgid "Entry Approved"
+msgstr "Eintrag genehmigt"
+
+#: includes/steps/class-step-approval.php:733
+msgid "Entry Rejected"
+msgstr "Eintrag abgelehnt"
+
+#: includes/steps/class-step-approval.php:768
+#: includes/steps/class-step-user-input.php:572
+msgid "A note is required"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:780
+msgid "The note field is required."
+msgstr ""
+
+#: includes/steps/class-step-approval.php:788
+msgid "Pending Approval"
+msgstr "Ausstehende Genehmigung"
+
+#: includes/steps/class-step-approval.php:826
+msgid "(Missing)"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:889
+#: includes/steps/class-step-approval.php:1124
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: includes/steps/class-step-approval.php:893
+#: includes/steps/class-step-approval.php:1173
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: includes/steps/class-step-approval.php:898
+msgid "Revert"
+msgstr ""
+
+#: includes/steps/class-step-approval.php:1216
+msgid "Error: step already processed."
+msgstr "Fehler: Schritt wurde bereits bearbeitet."
+
+#: includes/steps/class-step-feed-add-on.php:95
+#: includes/steps/class-step-feed-add-on.php:105
+msgid "Feeds"
+msgstr "Feeds"
+
+#: includes/steps/class-step-feed-add-on.php:102
+#: includes/steps/class-step-multi-feed.php:50
+msgid "You don't have any feeds set up."
+msgstr "Du hast keine Feeds konfiguriert."
+
+#: includes/steps/class-step-feed-add-on.php:136
+#: includes/steps/class-step-multi-feed.php:84
+msgid "Feed processed: %s"
+msgstr "Feed bearbeitet: %s"
+
+#: includes/steps/class-step-feed-campaign-monitor.php:23
+msgid "Campaign Monitor"
+msgstr "Kampagnen Monitor"
+
+#: includes/steps/class-step-feed-emma.php:23
+msgid "Emma"
+msgstr "Emma"
+
+#: includes/steps/class-step-feed-mailchimp.php:23
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: includes/steps/class-step-feed-twilio.php:23
+msgid "Twilio"
+msgstr "Twilio"
+
+#: includes/steps/class-step-feed-user-registration.php:30
+msgid "User Registration"
+msgstr "Benutzerregistration"
+
+#: includes/steps/class-step-feed-user-registration.php:79
+#: includes/steps/class-step-multi-feed.php:187
+msgid "Create"
+msgstr "Erstellen"
+
+#: includes/steps/class-step-feed-zapier.php:24
+msgid "Zapier"
+msgstr "Zapier"
+
+#: includes/steps/class-step-multi-feed.php:12
+msgid "Multi-Feed"
+msgstr "Multi-Feed"
+
+#: includes/steps/class-step-multi-feed.php:48
+msgid "You don't have any supported feed add-ons installed."
+msgstr "Du hast keine unterstützten Feed Add-Ons installiert."
+
+#: includes/steps/class-step-multi-feed.php:54
+msgid "Add-On Feeds"
+msgstr "Add-On Feeeds"
+
+#: includes/steps/class-step-multi-feed.php:174
+msgid "Feed ID %s"
+msgstr "Feed-ID %s"
+
+#: includes/steps/class-step-multi-feed.php:187
+msgid "Registration"
+msgstr "Registration"
+
+#: includes/steps/class-step-notification.php:21
+msgid "Notification"
+msgstr "Mitteilung"
+
+#: includes/steps/class-step-notification.php:50
+msgid "Gravity Forms Notifications"
+msgstr "Gravity Forms Mitteilungen"
+
+#: includes/steps/class-step-notification.php:57
+msgid "Workflow notification"
+msgstr "Workflow Mitteilung"
+
+#: includes/steps/class-step-notification.php:58
+msgid "Enable this setting to send an email."
+msgstr ""
+
+#: includes/steps/class-step-notification.php:62
+#: includes/steps/class-step-user-input.php:221
+#: includes/wizard/steps/class-iw-step-updates.php:88
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/steps/class-step-notification.php:76
+msgid "Configure Routing"
+msgstr "Routing konfigurieren"
+
+#: includes/steps/class-step-notification.php:159
+msgid "Sent Notification: %s"
+msgstr "Gesendete Mitteilung: %s"
+
+#: includes/steps/class-step-notification.php:214
+msgid "Sent Notification: "
+msgstr "Gesendete Mitteilung:"
+
+#: includes/steps/class-step-user-input.php:22
+#: includes/steps/class-step-user-input.php:45
+msgid "User Input"
+msgstr "Benutzereingabe"
+
+#: includes/steps/class-step-user-input.php:66
+msgid "Editable fields"
+msgstr "Anpassbare Felder"
+
+#: includes/steps/class-step-user-input.php:86
+#: includes/steps/class-step-user-input.php:112
+msgid "Enable field conditional logic"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:95
+msgid "Dynamic"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:99
+msgid "Only when the page loads"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:102
+#: includes/steps/class-step-user-input.php:143
+msgid ""
+"Fields and Sections support dynamic conditional logic. Pages do not support "
+"dynamic conditional logic so they will only be shown or hidden when the page"
+" loads."
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:136
+msgid "Green triangle"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:140
+msgid "Green Background"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:149
+msgid "Assignee Policy"
+msgstr "Beauftragten-Regelung"
+
+#: includes/steps/class-step-user-input.php:150
+msgid ""
+"Define how this step should be processed. If all assignees must complete "
+"this step then the entry will require input from every assignee before the "
+"step can be completed. If the step is assigned to a role only one user in "
+"that role needs to complete the step."
+msgstr "Definiere wie dieser Schritt bearbeitet werden soll. Wenn alle Beauftragte diesen Schritt abschliessen müssen, benötigt dass eine Eingabe von jedem Beauftragten bevor dieser Schritt abgeschlossen werden kann. Wenn dieser Schritt einer Rolle zugewiesen wird, muss nur ein Benutzer dieser Rolle diesen Schritt abschliessen."
+
+#: includes/steps/class-step-user-input.php:155
+msgid "At least one assignee must complete this step"
+msgstr "Mindestens ein Beauftragter muss diesen Schritt abschliessen"
+
+#: includes/steps/class-step-user-input.php:159
+msgid "All assignees must complete this step"
+msgstr "Alle Beauftragte müssen diesen Schritt abschliessen"
+
+#: includes/steps/class-step-user-input.php:185
+msgid "Default Status Option"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:186
+msgid ""
+"Select the default value for the status on the workflow detail page. Select "
+"Hidden to hide the status options."
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:191
+#: includes/steps/class-step-user-input.php:841
+msgid "In progress"
+msgstr "In Arbeit"
+
+#: includes/steps/class-step-user-input.php:204
+msgid "Always Required"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:207
+msgid "Required if in progress"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:211
+msgid "Required if complete"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:262
+msgid "A new entry requires your input"
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:532
+msgid "Entry updated and marked complete."
+msgstr "Eintrag aktualisiert und als abgeschlossen markiert."
+
+#: includes/steps/class-step-user-input.php:532
+msgid "Entry updated - in progress."
+msgstr "Eintrag aktualisiert - in Arbeit."
+
+#: includes/steps/class-step-user-input.php:633
+#: includes/steps/class-step-user-input.php:658
+msgid "This field is required."
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:678
+msgid "There was a problem while updating your form."
+msgstr ""
+
+#: includes/steps/class-step-user-input.php:691
+msgid "Pending Input"
+msgstr "Ausstehende Eingabe"
+
+#: includes/steps/class-step-webhook.php:30
+#: includes/steps/class-step-webhook.php:40
+msgid "Outgoing Webhook"
+msgstr ""
+
+#: includes/steps/class-step-webhook.php:45
+msgid "Outgoing Webhook URL"
+msgstr ""
+
+#: includes/steps/class-step-webhook.php:50
+msgid "Request Method"
+msgstr "Request-Methode"
+
+#: includes/steps/class-step-webhook.php:74
+msgid "Format"
+msgstr "Format"
+
+#: includes/steps/class-step.php:157
+msgid "Next Step"
+msgstr "Nächster Schritt"
+
+#: includes/steps/class-step.php:626
+msgid "%s: not required"
+msgstr "%s: nicht erforderlich"
+
+#: includes/steps/class-step.php:757
+msgid "Entry"
+msgstr "Eintrag"
+
+#: includes/steps/class-step.php:1479
+msgid "Processed"
+msgstr ""
+
+#: includes/wizard/steps/class-iw-step-complete.php:42
+msgid "Congratulations! Now you can set up your first workflow."
+msgstr "Glückwunsch! Nun kannst du deinen ersten Workflow einrichten."
+
+#: includes/wizard/steps/class-iw-step-complete.php:51
+msgid "Select a Form to use for your Workflow"
+msgstr "Wähle ein Formular für deinen Workflow"
+
+#: includes/wizard/steps/class-iw-step-complete.php:67
+msgid "Add Workflow Steps in the Form Settings"
+msgstr "Füge Workflow Schritte in den Formulareinstellungen hinzu"
+
+#: includes/wizard/steps/class-iw-step-complete.php:71
+msgid "Add Workflow Steps"
+msgstr "Füge Workflow Schritte hinzu"
+
+#: includes/wizard/steps/class-iw-step-complete.php:78
+msgid ""
+"Don't have a form you want to use for the workflow? %sCreate a Form%s and "
+"add your steps in the Form Settings later."
+msgstr "Hast du kein Formular, welches du für diesen Workflow benutzen willst? %sErstelle ein neues Formular%s und füge später deine Schritte in den Formulareinstellungen hinzu."
+
+#: includes/wizard/steps/class-iw-step-complete.php:88
+msgid ""
+"%sCreate a Form%s and then add your Workflow steps in the Form Settings."
+msgstr "%sErstelle ein Formular%s und füge dann deine Workflow Schritte in den Formulareinstellungen hinzu."
+
+#: includes/wizard/steps/class-iw-step-complete.php:98
+msgid "Installation Complete"
+msgstr "Installation abgeschlossen"
+
+#: includes/wizard/steps/class-iw-step-license-key.php:16
+msgid ""
+"Enter your Gravity Flow License Key below.  Your key unlocks access to "
+"automatic updates and support.  You can find your key in your purchase "
+"receipt or by logging into the %sGravity Flow%s site."
+msgstr "Gib deinen Gravity Form Lizenzschlüssel unten ein. Dein Schlüssel schaltet den Zugang zu automatischen Updates und Hilfe frei. Du kannst deinen Schlüssel in deiner Bestellung finden oder wenn du dich auf der %sGravity Forms%s Seite einloggst."
+
+#: includes/wizard/steps/class-iw-step-license-key.php:20
+msgid "Enter Your License Key"
+msgstr "Trage deinen Lizenzschlüssel ein"
+
+#: includes/wizard/steps/class-iw-step-license-key.php:35
+msgid ""
+"If you don't enter a valid license key, you will not be able to update "
+"Gravity Flow when important bug fixes and security enhancements are "
+"released. This can be a serious security risk for your site."
+msgstr "Wenn du keinen gültigen Lizenzschlüssel einträgst, wirst du keine Möglichkeit besitzten Updates für Gravity Flow einzuspielen, wenn wichtige Fehlerbehebungen und Sicherheitsverbesserungen verfügbar sind. Dies kann ein grosses Sicherheitsrisiko deiner Seite darstellen."
+
+#: includes/wizard/steps/class-iw-step-license-key.php:40
+msgid "I understand the risks"
+msgstr "Ich verstehe die Risiken"
+
+#: includes/wizard/steps/class-iw-step-license-key.php:59
+msgid "Please enter a valid license key."
+msgstr "Bitte gib einen gültgen Lizenzschlüssel ein"
+
+#: includes/wizard/steps/class-iw-step-license-key.php:65
+msgid ""
+"Invalid or Expired Key : Please make sure you have entered the correct value"
+" and that your key is not expired."
+msgstr "Ungültiger oder erloschener Schlüssel: Bitte überprüfe, ob du den Schlüssel korrekt eingegeben hast und dass er nicht erloschen ist."
+
+#: includes/wizard/steps/class-iw-step-license-key.php:73
+msgid "Please accept the terms"
+msgstr "Bitte akzeptiere die Bedingungen"
+
+#: includes/wizard/steps/class-iw-step-updates.php:16
+msgid ""
+"Gravity Flow will download important bug fixes, security enhancements and "
+"plugin updates automatically. Updates are extremely important to the "
+"security of your WordPress site."
+msgstr "Gravity Flow wird automatisch wichtige Fehlerbehebungen, Sicherheitsverbesserungen und Plugin Updates herunterladen. Updates sind extrem wichtig, um die Sicherheit deiner Wordpress Seite zu gewähren."
+
+#: includes/wizard/steps/class-iw-step-updates.php:22
+msgid ""
+"This feature is activated by default unless you opt to disable it below. We "
+"only recommend disabling background updates if you intend on managing "
+"updates manually. A valid license is required for background updates."
+msgstr "Diese Funktion ist standardmässig aktiviert, bis du sie unten deaktivierst. Wir empfehlen das deaktivieren der Hintergrundsaktualisierungen nur, wenn du die Updates manuell verwalten willst. Eine gültige Lizenz wird für die Hintergrundsaktualisierungen benötigt."
+
+#: includes/wizard/steps/class-iw-step-updates.php:29
+msgid "Keep background updates enabled"
+msgstr "Lasse die Hintergrundupdates aktiviert"
+
+#: includes/wizard/steps/class-iw-step-updates.php:35
+msgid "Turn off background updates"
+msgstr "Deaktiviere Hintergrundupdates"
+
+#: includes/wizard/steps/class-iw-step-updates.php:41
+msgid "Are you sure?"
+msgstr "Bist du sicher?"
+
+#: includes/wizard/steps/class-iw-step-updates.php:44
+msgid ""
+"By disabling background updates your site may not get critical bug fixes and"
+" security enhancements. We only recommend doing this if you are experienced "
+"at managing a WordPress site and accept the risks involved in manually "
+"keeping your WordPress site updated."
+msgstr "Mit dem Deaktivieren der Hintergrundupdates wird deine Seite wahrscheinlich keine kritischen Fehlerbehebungen und Sicherheitsverbesserungen erhalten. Wir empfehlen dies nur, wenn du erfahren mit dem Administrieren einer Wordpress Seite bist und die Risiken akzeptierst, welche miteinschliessen, dass du manuell deine Wordpress Seite aktualisieren musst."
+
+#: includes/wizard/steps/class-iw-step-updates.php:49
+msgid "I Understand and Accept the Risk"
+msgstr "Ich verstehe und akzeptiere die Risiken"
+
+#: includes/wizard/steps/class-iw-step-updates.php:80
+msgid "Please accept the terms."
+msgstr "Bitte akzeptiere die Bedingungen."
+
+#: includes/wizard/steps/class-iw-step-updates.php:88
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: includes/wizard/steps/class-iw-step-welcome.php:9
+msgid "Click the 'Get Started' button to complete your installation."
+msgstr "Klicke die 'Erste Schritte' Schaltfläche, um deine Installation abzuschliessen."
+
+#: includes/wizard/steps/class-iw-step-welcome.php:16
+msgid "Get Started"
+msgstr "Erste Schritte"
+
+#: includes/wizard/steps/class-iw-step-welcome.php:20
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: includes/wizard/steps/class-iw-step.php:98
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/wizard/steps/class-iw-step.php:102
+msgid "Back"
+msgstr "Zurück"
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Flow"
+msgstr "Gravity Flow"
+
+#. Plugin URI of the plugin/theme
+msgid "https://gravityflow.io"
+msgstr "https://gravityflow.io"
+
+#. Description of the plugin/theme
+msgid "Build Workflow Applications with Gravity Forms."
+msgstr "Erstelle Workflow Applikationen mit Gravity Forms."
+
+#. Author of the plugin/theme
+msgid "Steven Henty"
+msgstr "Steven Henty"
+
+#. Author URI of the plugin/theme
+msgid "http://www.stevenhenty.com"
+msgstr "http://www.stevenhenty.com"
+
+#: includes/class-extension.php:62 includes/class-feed-extension.php:62
+msgctxt ""
+"Displayed on the settings page after uninstalling a Gravity Flow extension."
+msgid ""
+"%s has been successfully uninstalled. It can be re-activated from the "
+"%splugins page%s."
+msgstr ""
+
+#: includes/class-extension.php:98 includes/class-feed-extension.php:98
+msgctxt ""
+"Title for the uninstall section on the settings page for a Gravity Flow "
+"extension."
+msgid "Uninstall %s Extension"
+msgstr "Deinstalliere %s Erweiterung"
+
+#: includes/class-extension.php:107 includes/class-feed-extension.php:107
+msgctxt "Button text on the settings page for an extension."
+msgid "Uninstall Extension"
+msgstr "Erweiterung deinstallieren"

@@ -1,0 +1,429 @@
+/*
+Theme Name: WP-Starter
+Theme URI: http://themeawesome.com/wordpress-child-theme
+Description: A child theme of WP-Forge
+Author: ThemeAwesome.com
+Author URI: http://themeawesome.com/
+Template: wp-forge
+Version: 3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.1.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: wp-starter
+
+Start adding your theme specific styles below.
+*/
+
+
+/* Child Theme Media Queries - Use the following media queries to adjust the appearance of your theme on different devices */
+@media only screen and (max-width: 40em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+    }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+    }
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+    }
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+    }
+@media only screen and (min-width: 120.063em) { /* min-width 1921px, xlarge screens */
+    }
+
+/* HEADER */
+	#header { 
+		padding: 0;
+	}
+
+	.title-area {
+		display: none;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: #83776F !important;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button):hover {
+		opacity: .8;
+	}
+
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+		background: #333 !important;
+	}
+
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+		background: #222 !important;
+	}
+
+	.top-bar-section ul li > a {
+		font-size: .7rem;
+	}
+
+	@media only screen and (min-width: 40.0625em) {
+		.top-bar {
+			background: none !important;
+			height: auto;
+			line-height: auto;
+		}
+		.top-bar-section li:not(.has-form) a:not(.button) {
+			line-height: 2;
+		}
+		.top-bar-section .dropdown li:not(.has-form) a:not(.button)  {
+			line-height: 2.5;
+			font-weight: 200;
+		}
+		.top-bar-section li.active:not(.has-form) a:not(.button) {
+			line-height: 2;
+			opacity: .75;
+		}
+		.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+			height: 1.5rem;
+		}
+		.top-bar-section .has-dropdown > a:after {
+			top: .7rem;
+		}
+	}
+
+
+
+	img.header-image {
+		margin: 0;
+	}
+
+	img.header-image:hover {
+		opacity: .9;
+	}
+
+	/*.header-logo {
+		position: relative;
+		top: -8px;
+	}*/
+
+	.header-utlity {
+		float: right;
+		text-align: right;
+	}
+
+	.header-utlity p a {
+		text-decoration: underline;
+		font-size: .8rem;
+		color: #fff;
+		font-weight: 200;
+		opacity: .7;
+	}
+
+	.header-utlity p a:hover {
+		opacity: 1;
+	}
+
+	.header-utility p {
+		margin: 7em 0;
+	}
+
+	button, .button {
+		padding: 0rem !important;
+		height: 1.8rem;
+	}
+
+	.prefix, .postfix {
+		line-height: 1.8rem;
+	}
+
+	input[type="text"] {
+		height: 1.8rem;
+	}
+
+	.login {
+		margin: .5em 0;
+	}
+
+
+/* BODY */
+
+.entry-header {
+	margin-bottom: 1rem;
+}
+
+.content_wrap {
+	padding-top: 0;
+}
+
+	/* Default paragraph styles */
+	p {
+	  color: #444 !important;
+	  font-size: .9rem;
+	  -webkit-hyphens: none;
+	  -moz-hyphens: none;
+	  -ms-hyphens: none;
+	  hyphens: none;
+	  line-height: 1.5; }
+	  p.lead {
+	    font-size: 1.1875rem;}
+
+	/* Default header styles */
+	h1, h2, h3, h4, h5, h6 {
+	  color: #555 !important; }
+
+	h1 {
+	  font-size: 2rem;
+	  margin: .5rem 0 .2rem 0; }
+
+	h2 {
+	  font-size: 1.6875rem !important; }
+
+	ul,
+	ol,
+	dl {
+	  font-size: .9rem;
+	  -webkit-hyphens: none;
+	  -moz-hyphens: none;
+	  -ms-hyphens: none;
+	  hyphens: none; }
+
+	 #content footer {
+	 	margin: 2em 0 .5em 0;
+	 }
+
+	 #content .breadcrumbs > * {
+	 	text-transform: capitalize;
+	 }
+
+	 #content .breadcrumbs span {
+	 	margin: 0 .5em;
+	 }
+
+/*SIDE NAV*/
+
+.widget_nav_menu ul {
+	list-style-type: none;
+}
+
+.widget_nav_menu .menu-item a {
+	background: #83776F;
+	font-size: .9em;
+	font-weight: 200;
+	padding: .4em .7em .4em .4em;
+	margin-bottom: 1px;
+	width: 100%;
+	float: right;
+	text-align: right;
+	border-right: 8px solid #83776F;
+}
+
+.widget_nav_menu .active a {
+	margin-bottom: 0;
+}
+
+.widget_nav_menu .menu-item a:hover, .widget_nav_menu .active a {
+	background-color: #D3CECB;
+	border-right: 8px solid #1d4554;
+}
+
+#secondary a/*, #secondary .active:first-child a*/ {
+	color: #eee !important; 
+}
+
+#secondary a:hover, #secondary .active a/*, #secondary .active:first-child a:hover*/ {
+	color: #83776F !important; 
+}
+
+.widget_nav_menu .menu-item:not(.active) li, .widget_nav_menu .menu-item li ul li {
+	display: none;
+}
+
+.widget_nav_menu .active li a {
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0;
+	background-color: #eee;
+	opacity: .8;
+	font-weight: 400;
+	font-size: 85%;
+	padding-right: .8em;
+}
+
+#secondary .sub-menu .active a {
+	/*opacity: 1;*/
+	background-color: #ddd;
+}
+
+li.active .sub-menu li:last-child a/*, #secondary .active:first-child a*/ {
+	margin-bottom: 1px;
+}
+
+.widget_nav_menu .active li a:hover {
+	opacity: .8;
+	border-right: 1px solid #D3CECB;
+}
+
+.submenu .widget-content li.active {
+	opacity: .4;
+}
+
+.widget-area .widget ul, .widget-area .widget ul ul, .widget ul li ul, .widget ul {
+	margin: 0;
+}
+
+#secondary.widget-area.columns {
+	padding: 0;
+	width: 21%;
+	margin-top: 1px;
+}
+
+@media only screen and (min-width: 64.0625em) {
+	.large-9 {
+		width: 79%;
+		padding-left: 1.3rem;
+	}
+
+	.home .large-9 {
+		padding-left: 0;
+	}
+
+	.home-content {
+		padding-left: 1.3rem;
+	}
+}
+
+
+/* SIDEBAR */
+#menu-social a:hover {
+	opacity: .9;
+}
+
+#secondary .social_wrap {
+	margin: .1em 0;
+	padding: .5em 0 .2em 0;
+	background-color: #ddd;
+}
+
+#secondary .social-navigation ul {
+	text-align: right;
+	padding-right: .8em;
+}
+
+.subscribe-section {
+	width: 100%;
+	background-color: #DE7D07; /*orange*/
+	clear: both;
+	padding: 1em; 
+	height: 640px;
+}
+
+.subscribe-section .input {
+	/*margin: .5em 0;*/
+	padding: .8em 0;
+}
+
+.subscribe-section p {
+	color: #eee;
+	font-size: 80%;
+	margin-bottom: 0;
+}
+
+.subscribe-section p::before {
+	font-family: "Genericons";
+	content: "\f463";
+	margin-right: .5em;
+}
+
+/* sub-PAGE sub-menu */
+
+.submenu .widget-content {
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: .5em .6em;
+}
+
+.submenu .widget-content h3 {
+	font-size: 65%;
+	font-weight: bold;
+	color: #ccc;
+}
+
+/*.submenu .widget-content h3 {
+	background-color: #1d4554;
+}
+*/
+.submenu .widget-content li {
+	font-size: 75%;
+	border-bottom: 1px solid #eee;
+	padding: .4em 0;
+}
+
+/*#content .submenu .widget-content ul li a {
+	color: #53868b;
+}*/
+
+/*#content .submenu .widget-content ul li a:hover {
+	color: #008CBA;
+	color: #53868b;
+}*/
+
+.submenu .widget-content li:last-child {
+	border-bottom: none;
+}
+
+.submenu .widget-content ul.menu {
+	list-style-type: none;
+}
+
+
+/*banner ad area*/
+#secondary-sidebar {
+	padding: .5em 0;
+	background-color: #D3CECB;
+	text-align: center;
+}
+
+#secondary-sidebar img {
+	width: 200px;
+	height: 75px;
+	margin-right: 5%;
+}
+
+/* FOOTER */
+.content_wrap, .sidebar_wrap, .footer_wrap {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+
+.footer_wrap {
+	background-color: #83776F !important;
+}
+
+footer[role="contentinfo"] {
+	border-top: 1px solid #fff;
+}
+
+footer .logo {
+	background-color: #1e4555;
+	padding: 1em;
+}
+
+.footer_wrap p, .footer_wrap a{
+	font-size: 85%;
+	margin-left: .3em;
+}
+
+footer .site-info a {
+	color: #444444 !important;
+}
+
+footer .site-info a:hover {
+	text-decoration: underline; 
+}
+
+footer .site-info hr {
+	margin: .4em 0 .2em 0;
+	opacity: .2;
+}
+
+footer {
+	padding: 0 !important;
+}
+
+footer .site-info {
+	padding: .5em 2em .2em 2em;
+}
+
+

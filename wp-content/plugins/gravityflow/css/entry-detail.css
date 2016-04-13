@@ -1,0 +1,276 @@
+/* The little triangle indicator */
+.gravityflow-editable-field.green-triangle:not(.gfield_error) label.gfield_label {
+    width:100%;
+    position: relative;
+}
+
+.gravityflow-editable-field.green-triangle:not(.gfield_error) label.gfield_label::before,
+.gravityflow-editable-field.green-triangle:not(.gfield_error) label.gfield_label::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.gravityflow-editable-field.green-triangle:not(.gfield_error) label.gfield_label::before {
+    border-width: 0.4em;
+    border-left-color: #ccc;
+    border-top-color: #ccc;
+}
+
+.gravityflow-editable-field.green-triangle:not(.gfield_error) label.gfield_label::after {
+    border-radius: 0.1em;
+    border-width: 0.4em;
+    border-left-color: #0c0;
+    border-top-color: #0c0;
+}
+
+.gravityflow-editable-field.green-background:not(.gfield_error) {
+    list-style-position:inside;
+    border: 1px solid green;
+    background: #eeffee;
+    padding:10px;
+}
+
+
+/* Notes */
+
+.gravityflow-note-avatar{
+    float: left;
+    width: 84px;
+    text-align:center;
+    padding-right:10px;
+}
+
+
+.gravityflow-note-body-wrap{
+    border: 1px solid #E0E0E0;
+    margin-left: 100px;
+    padding: 10px;
+    display:block;
+}
+
+.gravityflow-note-body{
+    line-height: 1.3em;
+    overflow: auto;
+    width: 100%;
+    word-wrap: break-word;
+    display:block;
+}
+
+.gravityflow-note-header:before,
+.gravityflow-note-header:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.gravityflow-note-header:after{
+    clear: both;
+}
+
+.gravityflow-note-title{
+    float: left;
+    margin-bottom:0.5em;
+    font-size:1.2em;
+    color:#939FA5;
+}
+.gravityflow-note-title a {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.gravityflow-note-body{
+    overflow-y: hidden;
+    display: block;
+}
+
+.gravityflow-note-meta{
+    color: #939FA5;
+    float: right;
+    font-size: 11px;
+    text-align: right;
+    display: block;
+}
+
+.gravityflow-note-body-wrap{
+    background-color:#FFF;
+}
+
+.gravityflow-note-user{
+    background-color:#FFF8DC;
+}
+
+/* Notes */
+
+#gravityflow-add-note-container{
+    float:right;
+}
+
+.gravityflow-note{
+
+    margin:20px 0 30px;
+    clear:both;
+    width:100%;
+}
+#gravityflow-note-content{
+    padding:10px;
+    float:left;
+    position: relative;
+}
+
+.gravityflow-notes-checkbox{
+    width:20px;
+    display:table-cell;
+    vertical-align:top;
+    padding:15px 0 0 5px;
+
+}
+
+#gravityflow-note-new{
+    width: 100%;
+    display: table;
+}
+
+.gravityflow-note-body{
+    line-height: 1.3em;
+    overflow: auto;
+    width: 100%;
+    word-wrap: break-word;
+    display:block;
+}
+
+.gravityflow-note-header:before,
+.gravityflow-note-header:after
+{
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.gravityflow-note-header:after{
+    clear: both;
+}
+
+.gravityflow-note-title{
+    float: left;
+    margin-bottom:0.5em;
+    font-size:1.2em;
+    color:#939FA5;
+}
+.gravityflow-note-title a {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.gravityflow-note-body{
+    overflow-y: hidden;
+    display: block;
+}
+
+.gravityflow-note-meta{
+    color: #939FA5;
+    float: right;
+    font-size: 11px;
+    text-align: right;
+    display: block;
+}
+
+#gravityflow-admin-action{
+    width:170px;
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .has-right-sidebar #post-body {
+        clear: left;
+        float: right;
+        width: 100%;
+        margin-right: 0;
+    }
+    .has-right-sidebar .inner-sidebar{
+        width:100%;
+    }
+
+    .has-right-sidebar #post-body-content {
+        margin-right: 0!important;
+    }
+
+}
+
+.gravityflow-note-avatar span > i {
+	width:65px;
+	height:65px;
+	display:inline-block;
+	font-size:4em;
+	margin:5px;
+	color:#0074a2;
+}
+
+table.entry-detail-view td.detail-view{
+    border-right: 1px;
+    border-left: 1px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.gravityflow-field-value {
+    padding: 7px 7px 7px 40px;
+    line-height: 1.8;
+}
+
+.gravityflow-field-value p {
+    text-align: left;
+}
+
+.gravityflow-field-value ul.bulleted {
+    margin-left: 12px;
+}
+
+.gravityflow-field-value ul.bulleted li {
+    list-style-type: disc;
+}
+
+.gfield.gravityflow-display-field label.gfield_label,
+.gfield.gravityflow-editable-field:not(.green-background):not(.gfield_error) label.gfield_label{
+    background-color: #EAF2FA;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #FFF;
+    line-height: 1.5;
+    padding: 7px;
+    width:100%;
+    margin:0;
+}
+
+.gravityflow-editable-field.gfield.green-background label.gfield_label{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.gravityflow-editable-field.gfield.green-background{
+    background-color: #eeffee;
+    padding: 7px;
+}
+
+td.gravityflow-order-summary{
+    border-top:1px solid #DDDDDD;
+    background-color: #EFEFEF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.gravityflow-instructions div.inside ul,
+.gravityflow-instructions div.inside ol {
+    margin: 1em 0 1em 2em;
+}
+
+.gravityflow-instructions div.inside ul li {
+    list-style-type: disc;
+}
+
+.gravityflow-instructions div.inside ol li {
+    list-style-type: decimal;
+}
