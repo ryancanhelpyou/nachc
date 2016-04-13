@@ -573,6 +573,7 @@ table.entry-detail-view {
 	width: 100% !important;
 	min-width: auto !important; 
 	display: block !important;
+	clear: both;
 }
 
 #post-body-content {
@@ -605,14 +606,6 @@ table.entry-detail-view {
 	width: 100%;
 }
 
-#post-body.columns-2 #postbox-container-1 {
-	float: none; 
-	margin-right: 0; 
-	width: 100%;
-	display: block;
-	clear: both;
-}
-
 .detail-view-print {
 	display:none;
 }
@@ -629,7 +622,7 @@ table.entry-detail-view {
 	list-style-type: none !important;
 }
 
-#field_1_47, #field_1_52, #field_1_36, #field_1_41 {
+#field_5_47, #field_5_52, #field_5_36, #field_5_41 {
 	display: none;
 }
 
