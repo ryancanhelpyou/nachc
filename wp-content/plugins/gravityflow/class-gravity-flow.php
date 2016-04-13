@@ -2051,7 +2051,7 @@ PRIMARY KEY  (id)
 
 				<div id="submitcomment" class="submitbox">
 					<div id="minor-publishing" style="padding:10px;">
-						<?php esc_html_e( 'Entry Id', 'gravityflow' ); ?>: <?php echo $entry_id_link ?><br /><br />
+						<!-- <?php esc_html_e( 'Entry Id', 'gravityflow' ); ?>: <?php echo $entry_id_link ?><br /><br />
 						<?php esc_html_e( 'Submitted', 'gravityflow' ); ?>: <?php echo esc_html( GFCommon::format_date( $lead['date_created'], true, 'Y/m/d' ) ) ?>
 						<?php
 						if ( isset( $lead['workflow_timestamp'] ) ) {
@@ -2061,7 +2061,7 @@ PRIMARY KEY  (id)
 								esc_html_e( 'Last updated', 'gravityflow' ); ?>: <?php echo esc_html( GFCommon::format_date( $last_updated, true, 'Y/m/d' ) );
 							}
 						}
-						?>
+						?> -->
 						<br /><br />
 						<?php
 						if ( ! empty( $lead['created_by'] ) && $usermeta = get_userdata( $lead['created_by'] ) ) {
@@ -2149,8 +2149,8 @@ PRIMARY KEY  (id)
 			if ( GFAPI::current_user_can_any( 'gravityflow_workflow_detail_admin_actions' )  && ! empty( $steps ) ) :
 
 			?>
-
-				<div class="postbox">
+				<!-- Ryan - remove admin workflow box -->
+				<!-- <div class="postbox">
 					<h3 class="hndle" style="cursor:default;">
 						<span><?php esc_html_e( 'Admin', 'gravityflow' ); ?></span>
 					</h3>
@@ -2186,7 +2186,7 @@ PRIMARY KEY  (id)
 
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			<?php endif; ?>
 
