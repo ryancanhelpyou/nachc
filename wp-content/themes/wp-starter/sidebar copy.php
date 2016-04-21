@@ -30,34 +30,21 @@
                       </div>
                     </div>
                 </div>
-
-                
-<!-- <form action="/newsletter.cfm" id="newsform" name="newsform" method="post" class="sidebar-form">
-<input type="hidden" name="optin" value="1"><input type="hidden" name="EmailType" value="0"><input type="text" size="16" name="email" value="Email Address" onclick="document.newsform.email.value=&quot;&quot;;" class="sidebar-formfield">&nbsp;&nbsp;<input type="image" name="submit" src="/site-images/btn-go-orange.jpg">
-</form>
- -->
-
-
-                
-             <p style="color: #FDF9F2 !important;opacity: .9;"><a href="http://feeds.feedburner.com/NationalAssociationofCommunityHealthCenters" target="_blank">Get it via our RSS feed</a></p>
+             <p style="color: #FDF9F2 !important;opacity: .9;">Get it via our RSS feed</p>
              	<div class="row input">
                     <div class="large-12 columns">
                       <div class="row collapse">
                         <div class="small-9 columns">
-                          <!-- FeedBurner signin script -->
-                          <form action="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=1280921" name="rssForm" method="post" target="popupwindow" onsubmit="window.open('http://www.feedburner.com', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="http://feeds.feedburner.com/~e?ffid=1280921" name="url"><input type="hidden" value="National Association of Community Health Centers" name="title">
-                          <input type="text" name="email" value="Email Address" onclick="document.rssForm.email.value=&quot;&quot;;" size="16" maxlength="40" class="sidebar-formfield" />
+                          <input type="text" placeholder="Email Address">
                         </div>
                         <div class="small-3 columns">
-                          <input name="submit" type="submit" class="postfix" value="Go" />
-                          </form>
+                          <a href="#" class="button postfix">Go</a>
                         </div>
+<a href="http://saveourchcs.org"><img src="http://dev.nachc.org/wp-content/uploads/2016/04/cfahc.jpg" alt="Campaign for America's Health Centers"></a>
                       </div>
-                      <a href="http://saveourchcs.org"><img src="http://dev.nachc.org/wp-content/uploads/2016/04/cfahc.jpg" alt="Campaign for America's Health Centers"></a>
                     </div>
                 </div>
 			</div>
-</div>
 
 
 		</div><!-- #secondary -->
