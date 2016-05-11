@@ -167,7 +167,9 @@ Start adding your theme specific styles below.
 
 	h1 {
 	  font-size: 2rem;
-	  margin: .5rem 0 .2rem 0; }
+	  margin: .5rem 0 .2rem 0;
+	  hyphens: manual !important;
+	  -webkit-hyphens: manual; }
 
 	h2 {
 	  font-size: 1.6875rem !important; }

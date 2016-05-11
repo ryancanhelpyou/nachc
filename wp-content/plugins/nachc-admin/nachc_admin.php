@@ -4,7 +4,7 @@ Plugin Name: NACHC admin tweaks
 Plugin Script: nachc_admin.php
 Plugin URI: http://ryancanhelpyou.com
 Description: NACHC admin tweaks
-Version: 0.1
+Version: 1.1
 License: GPL
 Author: Ryan King
 Author URI: http://ryancanhelpyou.com
@@ -67,11 +67,25 @@ function cptui_register_my_cpts() {
 		"rewrite" => array( "slug" => "news", "with_front" => false ),
 		"query_var" => true,
 		"menu_icon" => "dashicons-clipboard",		
-		"supports" => array( "title", "editor", "revisions", "author" ),		
+		"supports" => array( "title", "editor", "excerpt", "revisions", "author" ),		
 		"taxonomies" => array( "post_tag", "news_category" )
 	);
 	register_post_type( "news_center", $args );
 
 // End of cptui_register_my_cpts()
 }
+}
+
+// create News Options page config
+if( function_exists('acf_add_options_page') ) {
+ 
+	$option_page = acf_add_options_page(array(
+		'page_title' 	=> 'News Display Settings',
+		'menu_title' 	=> 'Display Settings',
+		'menu_slug' 	=> 'news-display-settings',
+		'capability' 	=> 'edit_posts',
+		'parent_slug' => 'edit.php?post_type=news_center',
+		'redirect' 	=> false
+	));
+ 
 }
